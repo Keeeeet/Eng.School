@@ -65,7 +65,7 @@ body{
   }
 }
 
-@media (min-width: 500px) and (max-width: 600px){
+@media (min-width: 300px) and (max-width: 600px){
   .registr{
     left: 16%;
     top: 4%;
