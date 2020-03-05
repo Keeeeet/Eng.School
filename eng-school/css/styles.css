@@ -55,12 +55,12 @@ body{
     font-weight: 500;
     padding-bottom: 0;
     text-align: left;
-    font-size: 1.3rem;
+    font-size: 0.9rem;
   }
   .btn{
     margin-right: 330px;
     margin-top: 0;
-    font-size: 1rem;
+    font-size: 0.9rem;
 
   }
 }
@@ -74,7 +74,7 @@ body{
     font-weight: 400;
     padding-bottom: 0;
     text-align: left;
-    font-size: 1.1rem;
+    font-size: 0.7rem;
   }
   .btn{
     margin-right: 330px;
