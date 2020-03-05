@@ -2,7 +2,11 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-
+/* Name From Rew */
+em{
+  font-weight: 300;
+  font-size: 0.9rem;
+}
 
 
 
@@ -207,5 +211,9 @@ body{
      border-radius: 100%;
      width: 23%;
      margin: 22px;
+   }
+   em{
+     font-weight: 200;
+     font-size: 0.7rem;
    }
  }
