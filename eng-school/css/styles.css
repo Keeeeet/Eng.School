@@ -171,8 +171,7 @@ body{
 
 .review-h2-second{
   font-weight: 800;
-  font-size: 1.9rem;
-  line-height: 1.1;
+  font-size: 2.3rem;
 }
 
 @media (max-width: 992px){
@@ -182,9 +181,10 @@ body{
     line-height: 1.1;
   }
   .review-h2-second{
-  font-weight: 700;
-  font-size: 1.6rem;
-  line-height: 1.1;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.1;
+  }
 }
 }
 
