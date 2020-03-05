@@ -165,15 +165,27 @@ body{
 /* First rew */
 
 .review-h2{
-  font-weight: 900;
-  font-size: 2.5rem;
+  font-weight: 800;
+  font-size: 2.3rem;
+}
+
+.review-h2-second{
+  font-weight: 800;
+  font-size: 1.9rem;
+  line-height: 1.1;
 }
 
 @media (max-width: 992px){
   .review-h2{
     font-size: 1.8rem;
-    line-height: 1.8;
+    font-weight: 700;
+    line-height: 1.1;
   }
+  .review-h2-second{
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.1;
+}
 }
 
 .RewiewImg{
