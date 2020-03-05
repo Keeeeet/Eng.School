@@ -176,17 +176,17 @@ body{
 
 @media (max-width: 992px){
   .review-h2{
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 700;
     line-height: 1.1;
   }
   .review-h2-second{
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 700;
     line-height: 1.1;
   }
 }
-}
+
 
 .RewiewImg{
   border-radius: 100%;
