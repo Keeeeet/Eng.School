@@ -162,50 +162,50 @@ body{
   color: white;
 }
 
-/* First rew */
-
-.review-h2{
-  font-weight: 800;
-  font-size: 2.3rem;
+.testimonial-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-variant: normal;
 }
 
-.review-h2-second{
-  font-weight: 800;
-  font-size: 2.3rem;
-}
-
-@media (max-width: 992px){
-  .review-h2{
-    font-size: 1.7rem;
-    font-weight: 700;
-    line-height: 1.1;
-  }
-  .review-h2-second{
-    font-size: 1.7rem;
-    font-weight: 700;
-    line-height: 1.1;
-  }
-}
-
-
-.RewiewImg{
+.review-img{
   border-radius: 100%;
-  width: 12%;
-  margin: 20px;
+  width: 10%;
+  margin: 22px;
 }
 
-@media (min-width: 992px)  and (max-width: 1330px){
-  .RewiewImg{
-    width: 20%;
-  }
-}
+/* Buttons in Carousel */
+ .carousel-item{
+    padding: 7% 15%;
+ }
 
-@media (max-width: 992px){
-  .RewiewImg{
-    width: 23%;
-  }
-}
+ @media (max-width: 1470px){
+   .testimonial-text{
+     font-weight: 600;
+     font-size: 2.7rem;
+     line-height: 1.3;
+     font-variant: normal;
+   }
 
-.carousel-item{
-   padding: 7% 15%;
-}
+   .review-img{
+     border-radius: 100%;
+     width: 15%;
+     margin: 22px;
+   }
+ }
+
+ @media (max-width: 800px){
+   .testimonial-text{
+     font-weight: 600;
+     font-size: 2rem;
+     line-height: 1.2;
+     font-variant: normal;
+   }
+
+   .review-img{
+     border-radius: 100%;
+     width: 23%;
+     margin: 22px;
+   }
+ }
