@@ -8,11 +8,19 @@ em{
   font-size: 0.9rem;
 }
 
+#aboutWeb, #reviews, #registration, #foot{
+  text-align: center;
+}
+
+
+
+
 
 
 #title{
   background-color: #f8b500;
 }
+
 
 
 .rght-cl{
@@ -28,6 +36,7 @@ em{
   color: #393e46;
 }
 
+/* Адаптивность 1ой секции(титул) */
 @media (max-width: 990px)  {
   .big-title{
     margin-top: 10%;
@@ -112,7 +121,6 @@ em{
 
 #aboutWeb{
   background-color:  #f7f7f7;
-  text-align: center;
   padding: 7%;
 }
 
@@ -130,6 +138,8 @@ em{
   font-size: 2.6rem;
   margin-bottom: 8%;
 }
+
+/* Адаптивность 2-ой секции(о вебинаре) */
 
 @media (max-width: 700px){
   .about-h2{
@@ -161,7 +171,6 @@ em{
 /* Reviews Section */
 
 #reviews{
-  text-align: center;
   background-color: #5c636e;
   color: white;
 }
@@ -184,6 +193,8 @@ em{
     padding: 7% 15%;
  }
 
+
+/* Адаптивность 3-ей секции*(отзывы) */
  @media (max-width: 1470px){
    .testimonial-text{
      font-weight: 600;
@@ -212,9 +223,91 @@ em{
      width: 23%;
      margin: 22px;
    }
+
    em{
      font-weight: 200;
      font-size: 0.7rem;
-     display: block;
    }
  }
+
+
+
+
+ /* Registration section */
+
+ #registration{
+   background-color: #f8b500;
+   padding: 7% 4%;
+ }
+
+/* Адаптировать..... */
+.regCol{
+  text-align: center;
+}
+
+.btn{
+   font-size: 1.5rem;
+   background-color: #393e46;
+   margin-top: 3%;
+ }
+
+ /* Адаптировнность кнопки */
+@media (max-width: 990px){
+  .btn{
+     font-size: 1rem;
+     background-color: #393e46;
+     width: 30%;
+   }
+}
+ .regTitle{
+   padding: 3%;
+   font-size: 2.6rem;
+   font-weight: 800;
+   color: #393e46;
+ }
+/* Адаптивность заголовка */
+@media (min-width: 1400px;){
+  .regTitle{
+    padding: 4%;
+    font-size: 3rem;
+    font-weight: 800;
+  }
+}
+@media (max-width: 990px){
+  .regTitle{
+    padding: 2%;
+    font-size: 1.8rem;
+    font-weight: 800;
+  }
+}
+
+.low-form{
+  margin: 2%;
+  display: inline-block;
+  width: 60%;
+}
+
+
+
+
+/* Footer Section */
+#foot{
+  background-color: #393e46;
+  color: #fff;
+  padding: 2% 3%;
+}
+
+.companyName{
+  color: #5c636e;
+  font-size: 1rem;
+  padding: 1% 2% 0 2%;
+}
+
+.icons{
+  color: #f8b500;
+  padding: 20px;
+}
+
+.icons:hover{
+  color: #fb9224;
+}
