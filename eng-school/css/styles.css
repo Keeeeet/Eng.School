@@ -251,7 +251,7 @@ em{
    margin-top: 3%;
  }
 
- /* Адаптировнность кнопки */
+ /* Адаптировнность кнопки и заноловка*/
 @media (max-width: 990px){
   .btn{
      font-size: 1rem;
@@ -259,13 +259,27 @@ em{
      width: 30%;
    }
 }
- .regTitle{
+
+@media (max-width: 600px){
+  .btn{
+     font-size: 0.7rem;
+     background-color: #393e46;
+     width: 40%;
+   }
+  .regTitle{
+    padding: 2%;
+    font-size: 1.7rem;
+    font-weight: 800;
+  }
+}
+
+.regTitle{
    padding: 3%;
    font-size: 2.6rem;
    font-weight: 800;
    color: #393e46;
  }
-/* Адаптивность заголовка */
+
 @media (min-width: 1400px;){
   .regTitle{
     padding: 4%;
