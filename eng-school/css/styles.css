@@ -258,9 +258,15 @@ em{
      background-color: #393e46;
      width: 30%;
    }
+  .low-form{
+    margin: 2%;
+    display: inline-block;
+    width: 60%;
+    font-size: 1rem;
+  }
 }
 
-@media (max-width: 760px){
+@media (max-width: 700px){
   .btn{
      font-size: 0.6rem;
      background-color: #393e46;
