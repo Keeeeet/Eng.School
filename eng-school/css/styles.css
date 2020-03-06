@@ -268,7 +268,7 @@ em{
 
 @media (min-width: 100px) and (max-width: 700px){
   .btn{
-     font-size: 0.7rem;
+     font-size: 0.8rem;
      background-color: #393e46;
      width: 50%;
    }
@@ -281,7 +281,7 @@ em{
     margin: 3%;
     display: inline-block;
     width: 80%;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 }
 
